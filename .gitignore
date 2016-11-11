@@ -4,3 +4,7 @@
 /devel/
 
 /logs/
+
+/.catkin_tools/profiles/
+
+src/*

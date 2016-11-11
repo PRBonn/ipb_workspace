@@ -1,0 +1,18 @@
+image: ubuntu:16.04
+
+stages:
+  - build
+
+build:
+  stage: build
+  before_script:
+  - export TERM=xterm
+  - export SHELL=/bin/bash
+  - apt-get update
+  - apt-get install -y build-essential cmake python-pip python-empy git
+  - pip install catkin-tools
+  - git submodule update --init
+  script:
+  - catkin build
+  tags:
+  - docker
