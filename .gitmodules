@@ -1,0 +1,3 @@
+[submodule "src/ipb-downloader"]
+	path = src/ipb-downloader
+	url = git@gitlab.ipb.uni-bonn.de:igor/ipb-downloader.git
