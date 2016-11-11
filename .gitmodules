@@ -1,3 +1,6 @@
 [submodule "src/ipb-downloader"]
 	path = src/ipb-downloader
 	url = git@gitlab.ipb.uni-bonn.de:igor/ipb-downloader.git
+[submodule "src/catkin"]
+	path = src/catkin
+	url = https://github.com/ros/catkin.git
