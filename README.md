@@ -18,8 +18,13 @@ Once you have set up this workspace, copy any project of yours into the `src/`
 folder and build it with `catkin build` command.
 
 If your project depends on other projects that can be checked out with git, you
-can use a `fetch` verb of `catkin`. Install this verb following instructions on
-the [catkin_tools_fetch][fetch-github] GitHub page. It allows to run `catkin
-fetch` from your catkin workspace and manages the dependency downloads for you.
+can use a `fetch` verb of `catkin`.
+
+- Install `fetch` following instructions on the
+  [catkin_tools_fetch][fetch-github] GitHub page.
+- Use it in this workspace like this:
+```
+catkin fetch --default_url https://gitlab.ipb.uni-bonn.de/ipb-tools
+```
 
 [fetch-github]: https://github.com/niosus/catkin_tools_fetch
