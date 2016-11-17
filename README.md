@@ -6,7 +6,7 @@ ROS (but with catkin).
 The first step ensures, this workspace will not extend any other, e.g. ROS one.
 
 1. **[IMPORTANT]** `CMAKE_PREFIX_PATH=""`
-2. `git clone --recursive git@gitlab.ipb.uni-bonn.de:igor/rosless-workspace.git`
+2. `git clone --recursive git@gitlab.ipb.uni-bonn.de:ipb-global/rosless-workspace.git`
 3. `cd rosless-workspace`
 4. `catkin build -v`
 
