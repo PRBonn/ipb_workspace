@@ -16,7 +16,8 @@ workspaces with `catkin_tools`.
 # How to use #
 Once you have set up this workspace, copy any project of yours into the `src/`
 folder and build it with `catkin build` command. For this you need
-[catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html).
+[catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html) 
+and the EmPy library for Python (`pip install empy`).
 
 If your project depends on other projects that can be checked out with git, you
 can use a `fetch` verb of `catkin`.
