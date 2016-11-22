@@ -26,7 +26,7 @@ can use a `fetch` verb of `catkin`.
   [catkin_tools_fetch][fetch-github] GitHub page.
 - Use it in this workspace like this:
 ```
-catkin fetch --default_url https://gitlab.ipb.uni-bonn.de/ipb-tools
+catkin fetch --default_url git@gitlab.ipb.uni-bonn.de/ipb-tools
 ```
 
 [fetch-github]: https://github.com/niosus/catkin_tools_fetch
