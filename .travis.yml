@@ -1,0 +1,15 @@
+os: linux
+dist: trusty
+python: '3.4'
+sudo: required
+language: python
+python: "3.5"
+
+before_install:
+  - sudo pip install --upgrade pipenv
+
+before_script:
+  - pipenv install -v
+
+script:
+  - pipenv run "catkin build -v"
