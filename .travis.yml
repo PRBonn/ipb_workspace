@@ -1,0 +1,17 @@
+os: linux
+dist: trusty
+python: '3.4'
+sudo: required
+language: generic
+cache: apt
+env: PYTHON=/usr/bin/python3.4
+
+before_install:
+  - sudo pip install --upgrade pip pipenv
+
+before_script:
+  - pipenv install -v
+  - pipenv shell
+
+script:
+  - catkin build --no_status
