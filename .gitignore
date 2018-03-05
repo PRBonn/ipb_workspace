@@ -8,3 +8,5 @@
 /.catkin_tools/profiles/
 
 src/*
+
+/Pipfile.lock
