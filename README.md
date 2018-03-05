@@ -3,20 +3,15 @@ This is a catkin workspace for you to clone when you want to develop without
 ROS (but with catkin). We use `pipenv` to have a control over the dependencies.
 You should have a python virtual environment for your worspace.
 
-## Prerequisites ##
-We use `pipenv` to make sure all dependencies are satisfied.
-Make sure you are using `Python 3` and install it with 
-```bash
-pip install --user pipenv
-```
-
 # How to set up your workspace #
 The first step ensures, this workspace will not extend any other, e.g. ROS one.
 We make use of python virtual environtments by using
-[`pipenv`](https://github.com/pypa/pipenv) that makes using virual environments
+[pipenv](https://github.com/pypa/pipenv) that makes using virual environments
 easy.
 
 ```bash
+# Install pipenv if needed.
+pip install --user pipenv 
 # Omit this line you WANT to extend a ROS workspace.
 CMAKE_PREFIX_PATH=""
 # Get the workspace and move into it.  
