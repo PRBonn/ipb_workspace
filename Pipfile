@@ -15,6 +15,7 @@ python_version = "3.5"
 catkin-tools = "*"
 catkin-tools-fetch = "*"
 trollius = "*"
+empy = "*"
 
 
 [dev-packages]
