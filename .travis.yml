@@ -2,13 +2,11 @@ os: linux
 dist: trusty
 python: '3.4'
 sudo: required
-language: generic
-cache: apt
+language: python
 python: "3.5"
-env: PYTHON=/usr/bin/python3.5
 
 before_install:
-  - sudo pip3 install --upgrade pipenv
+  - sudo pip install --upgrade pipenv
 
 before_script:
   - pipenv install -v
