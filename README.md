@@ -28,21 +28,16 @@ catkin build
 The workspace contains the `catkin` package, which is needed for building
 non-ROS workspaces with `catkin_tools`.
 
-# How to use #
+# How to use the workspace #
 Once you have set up this workspace, copy any project of yours into the `src/`
 folder and build it with `catkin build` command. 
 
 We rely on
-[catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html). It should be installed while you are setting up your virtual environment.
+[catkin_tools](https://catkin-tools.readthedocs.io/en/latest/installing.html). It should be installed automatically while you are setting up your virtual environment.
 
 If your project depends on other projects that can be checked out with git, you
-can use a `fetch` verb of `catkin`.
-
-- Install `fetch` following instructions on the
-  [catkin_tools_fetch][fetch-github] GitHub page.
-- Use it in this workspace like this:
-```
-catkin dependencies fetch --default_url git@gitlab.ipb.uni-bonn.de:ipb-tools
-```
+can use a `fetch` verb of `catkin` from the package
+[catkin_tools_fetch][fetch-github]. It will also be installed automatically
+during the virtual environment setup. See its Guthub page for more details.
 
 [fetch-github]: https://github.com/Photogrammetry-Robotics-Bonn/catkin_tools_fetch
