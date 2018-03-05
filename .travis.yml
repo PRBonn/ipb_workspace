@@ -8,7 +8,7 @@ python: "3.5"
 env: PYTHON=/usr/bin/python3.5
 
 before_install:
-  - sudo pip install --upgrade pip pipenv
+  - sudo pip3 install --upgrade pipenv
 
 before_script:
   - pipenv install -v
