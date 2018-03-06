@@ -1,9 +1,10 @@
 # ROS-less workspace #
+
+[![Travis](https://img.shields.io/travis/Photogrammetry-Robotics-Bonn/rosless-workspace.svg?style=flat-square)](https://travis-ci.org/Photogrammetry-Robotics-Bonn/rosless-workspace)
+
 This is a catkin workspace for you to clone when you want to develop without
 ROS (but with catkin). We use `pipenv` to have a control over the dependencies.
 You should have a python virtual environment for your worspace.
-
-[![Travis](https://img.shields.io/travis/Photogrammetry-Robotics-Bonn/rosless-workspace.svg?style=for-the-badge)](https://github.com/Photogrammetry-Robotics-Bonn/rosless-workspace)
 
 # How to set up your workspace #
 The first step ensures, this workspace will not extend any other, e.g. ROS one.
