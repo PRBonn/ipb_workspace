@@ -7,7 +7,7 @@ python: "3.5"
 env: PIPENV_IGNORE_VIRTUALENVS=1
 
 before_install:
-  - sudo pip install --upgrade pipenv
+  - sudo pip install --upgrade pip pipenv
 
 before_script:
   - pipenv install -v
