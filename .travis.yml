@@ -12,4 +12,5 @@ before_script:
   - pipenv install -v
 
 script:
-  - pipenv run "catkin build -v"
+  # Use a script stored in the Pipfile of the repo.
+  - pipenv run catkin_build
