@@ -1,6 +1,6 @@
 # ROS-less workspace #
 
-[![Travis](https://img.shields.io/travis/Photogrammetry-Robotics-Bonn/rosless-workspace.svg?style=flat-square)](https://travis-ci.org/Photogrammetry-Robotics-Bonn/rosless-workspace)
+[![Travis](https://img.shields.io/travis/PRBonn/rosless-workspace.svg?style=flat-square)](https://travis-ci.org/PRBonn/rosless-workspace)
 
 This is a catkin workspace for you to clone when you want to develop without
 ROS (but with catkin). We use `pipenv` to have a control over the dependencies.
@@ -18,7 +18,7 @@ pip install --user pipenv
 # Omit this line you WANT to extend a ROS workspace.
 CMAKE_PREFIX_PATH=""
 # Get the workspace and move into it.  
-git clone --recursive https://github.com/Photogrammetry-Robotics-Bonn/catkin_tools_fetch.git
+git clone --recursive https://github.com/PRBonn/rosless-workspace.git
 cd rosless-workspace
 # We use a pipenv that ensures you have correct dependencies.
 # Here we install the dependencies and run the virtual environment.
@@ -43,4 +43,4 @@ can use a `fetch` verb of `catkin` from the package
 [catkin_tools_fetch][fetch-github]. It will also be installed automatically
 during the virtual environment setup. See its Guthub page for more details.
 
-[fetch-github]: https://github.com/Photogrammetry-Robotics-Bonn/catkin_tools_fetch
+[fetch-github]: https://github.com/PRBonn/catkin_tools_fetch
