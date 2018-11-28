@@ -1,6 +1,6 @@
 # ROS-less workspace #
 
-[![Travis](https://img.shields.io/travis/PRBonn/rosless-workspace.svg?style=flat-square)](https://travis-ci.org/PRBonn/rosless-workspace)
+[![Travis](https://img.shields.io/travis/PRBonn/rosless-workspace.svg?style=for-the-badge)](https://travis-ci.org/PRBonn/rosless-workspace)
 
 This is a catkin workspace for you to clone when you want to develop without
 ROS (but with catkin). We use `pipenv` to have a control over the dependencies.
