@@ -7,7 +7,7 @@ url = "https://pypi.python.org/simple"
 
 [requires]
 
-python_version = "3"
+python_version = "2"
 
 
 [packages]
