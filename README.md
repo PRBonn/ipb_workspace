@@ -1,6 +1,6 @@
 # IPB workspace #
 
-[![Travis](https://img.shields.io/travis/PRBonn/ipb-workspace.svg?style=for-the-badge)](https://travis-ci.org/PRBonn/ipb-workspace)
+[![Travis](https://img.shields.io/travis/PRBonn/ipb_workspace.svg?style=for-the-badge)](https://travis-ci.org/PRBonn/ipb_workspace)
 
 This is a catkin workspace for you to clone when you want to develop with or
 without ROS (but with catkin). We use `pipenv` to have a control over the
