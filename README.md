@@ -36,8 +36,8 @@ CMAKE_PREFIX_PATH=""
 ## 3. Get the workspace and build it ##
 ```bash
 # Make sure you use --recursive as we need to check out submodules.
-git clone --recursive https://github.com/PRBonn/rosless-workspace.git
-cd rosless-workspace
+git clone --recursive https://github.com/PRBonn/ipb_workspace.git
+cd ipb_workspace
 # We use a pipenv that ensures you have correct dependencies.
 # Here we install the dependencies and run the virtual environment.
 pipenv install
